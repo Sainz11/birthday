@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Selamat Ulang Tahun!</title>
+  <style>
+    body {
+      background-color: #f7e9f3;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      animation: fadeIn 2s;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: 20px;
+      transform: scale(1);
+      transition: transform 0.5s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    h1 {
+      color: #e94e77;
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+
+    .image {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>🎉 Selamat Ulang Tahun! 🎉</h1>
+    <p>Di hari istimewa ini, semoga kamu selalu dikelilingi oleh kebahagiaan. Jadilah orang yang lebih baik dan teruslah menginspirasi banyak orang. Selamat menikmati hari spesialmu!</p>
+    <img src="https://images.unsplash.com/photo-1579737190013-4318357f00d2?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb" alt="Gambar Kue Ulang Tahun" class="image">
+    <p>pertanda<br>Sainz.</p>
+  </div>
+
+</body>
+</html>
